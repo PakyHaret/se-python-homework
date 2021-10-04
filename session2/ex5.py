@@ -11,3 +11,7 @@ d1 = {
 
 # Afisam tate cheile dictionarului d1, folosind metoda keys()
 print(d1.keys())
+
+# Rezolvare: Afisam toate valorile (Prin valori eu ma gandesc la values) dictionarului:
+
+print(d1.values())
