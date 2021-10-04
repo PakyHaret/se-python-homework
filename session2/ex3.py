@@ -18,4 +18,3 @@ while x != 'stop':
 
 # Afisam lista l1.
 print(l1)
-eqsdasdasdasdsdasdasd
