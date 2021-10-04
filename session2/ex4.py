@@ -8,9 +8,7 @@
 t1 = (1, 2)
 t2 = (3, 4, 5)
 
-# Vom crea variabila l1 iar ca si valoare, va avea o lista compusa din
-# concatenarea celor 2 tupluri. Primele elemente vor fi cele din l1.
-# Vom converti cele 2 tupluri in liste, inainte sa le concatenam
+# Rezolvare:
 l1 = list(t1) + list(t2)
 
 # Afisam lista
