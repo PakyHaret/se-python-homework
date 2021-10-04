@@ -13,8 +13,10 @@ l1 = [1, 4, 4, 5, 6]
 # Afisam setul inainte de schimbare
 print(s1)
 
-# Adaugam valoarea 4 setului folosind metoda add()
-s1.add(4)
+# Rezolvare:
+for i in l1:
+    if i != s1:
+        s1.add(i)
 
 # Afisam setul dupa schimbare
 print(s1)
