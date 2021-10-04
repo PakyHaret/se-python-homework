@@ -20,7 +20,7 @@ l2 = ['a', 'b', 'c', 'd']
 d1 = {}
 
 #Rezolvare:
-d1 = dict(zip(l2, l1))
+d1 = dict(zip(l1, l2))
 
 # Afisam listele l1 si l2
 print(l1, l2)
