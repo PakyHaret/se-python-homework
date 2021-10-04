@@ -19,5 +19,10 @@ l2 = ['a', 'b', 'c', 'd']
 # In varaibila d1 avem un dictionar gol
 d1 = {}
 
+#Rezolvare:
+d1 = dict(zip(l2, l1))
+
 # Afisam listele l1 si l2
 print(l1, l2)
+#Printam Dictionarul:
+print(d1)
