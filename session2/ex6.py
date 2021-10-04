@@ -13,8 +13,8 @@ d1 = {
 # Afisam dictionarul inainte de schimbare
 print(d1)
 
-# Schimbam valoarea de la cheia 2, din 'CMI2' in 'CMI'
-d1[2] = 'CMI'
+# Adaugam inca o cheie 3 cu valoarea "CMI3"
+d1[3] = 'CMI3'
 
 # Afisam dictionarul dupa schimbare
 print(d1)
