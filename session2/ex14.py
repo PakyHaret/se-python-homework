@@ -6,3 +6,10 @@
         Veti primi: 'cmi'
         Veti printa: 3
 """
+#Rezolvare:
+x = input()
+i = 0
+for element in x:
+    i = i + 1
+
+print(i)
