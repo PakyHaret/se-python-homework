@@ -16,3 +16,21 @@
             2: 'i'
         }
 """
+#Rezolvare:
+y = input()
+x = int(input())
+i = 0
+
+dict_keys = []
+dict_values = []
+
+while x > i:
+    dict_keys.append(i)
+    i = i + 1
+
+for character in y:
+    dict_values.append(character)
+
+dictionar = dict(zip(dict_keys, dict_values))
+
+print(dictionar)
