@@ -12,3 +12,12 @@
         5
         cate un singur numar pe linie.
 """
+#Rezolvare:
+x = int(input())
+i = 1
+while x >= i:
+    if not i % 2 == 0:
+        print(i)
+    i = i + 1
+
+
