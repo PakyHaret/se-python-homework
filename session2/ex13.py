@@ -6,3 +6,11 @@
         Veti primi: 2 si 3
         Veti printa: 8
 """
+#Rezolvare:
+x = int(input())
+y = int(input())
+
+print(pow(x, y))
+
+#Se mai poate rezolva si asa:
+#print(x ** y)
