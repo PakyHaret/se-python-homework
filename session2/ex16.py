@@ -7,5 +7,6 @@
         Veti printa: 'cmicmicmi'
 """
 #Rezolvare:
+
 x = input()
 print("".join([x, x, x]))
