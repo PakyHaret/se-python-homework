@@ -7,3 +7,9 @@
         Veti primi: 'cmi', 5
         Veti printa: 'cmicmicmicmicmi'
 """
+#Rezolvare:
+y = input()
+x = int(input())
+
+first_string = y * x
+print(first_string)
