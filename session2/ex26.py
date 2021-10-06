@@ -13,3 +13,12 @@
         False
         False
 """
+#Rezolvare:
+x = input().split(",")
+
+for element in x:
+    if element != "exit":
+        if int(element) % 2 == 0:
+            print("True")
+        else:
+            print("False")
