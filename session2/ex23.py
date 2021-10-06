@@ -14,3 +14,11 @@
         Veti primi: 'cojoc'
         Veti printa: True
 """
+#Rezolvare:
+
+x = input()
+
+if (x == x[::-1]):
+    print("True")
+else:
+    print("False")
