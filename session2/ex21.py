@@ -10,12 +10,14 @@
         Veti primi: 'cmi', 'center', 'for', 'machines'
         Veti printa: ['cm', 'cente', 'fo', 'machine']
 """
-#Rezolvare:
+#Rezolvare finala:
 
 x = input().split(",")
 lista_rezultate = []
 
 for element in x:
-    lista_rezultate.append(element[:-1])
+    if element.lower() != "exit":
+        lista_rezultate.append(element[:-1])
 
 print(lista_rezultate)
+
