@@ -11,11 +11,12 @@
 """
 #Rezolvare:
 
-x = input().split()
-lista = []
+x = input().split(",")
+lista_elemente = []
 
-while x != "exit":
-    lista.append(x)
+for element in x:
+    if element != "exit":
+        lista_elemente.append(int(element))
 
-print(lista)
-print(set(lista))
+print(lista_elemente)
+print(set(lista_elemente))
