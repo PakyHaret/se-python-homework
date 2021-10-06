@@ -14,3 +14,11 @@
         Veti primi: 1232
         Veti printa: False
 """
+#Rezolvare:
+
+x = int(input())
+
+if (str(x) == str(x)[::-1]):
+    print("True")
+else:
+    print("False")
