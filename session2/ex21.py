@@ -4,9 +4,11 @@
     al fiecarui string.
 
     Observatii:
-        - lungimea stringurilor va fi intotdeauan cel putin 1
+        - lungimea stringurilor va fi intotdeauna cel putin 1
 
     exemplu:
         Veti primi: 'cmi', 'center', 'for', 'machines'
         Veti printa: ['cm', 'cente', 'fo', 'machine']
 """
+#Rezolvare:
+
