@@ -12,3 +12,10 @@
 """
 #Rezolvare:
 
+x = input().split(",")
+lista_rezultate = []
+
+for element in x:
+    lista_rezultate.append(element[:-1])
+
+print(lista_rezultate)

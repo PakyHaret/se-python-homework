@@ -10,3 +10,4 @@
         Veti primi: '(()]'
         Veti printa: False
 """
+#Rezolvare:
