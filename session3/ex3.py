@@ -12,4 +12,19 @@
 
 
 def func(x):
-    pass
+    lista_elemente = [0, ]
+    while x != 0:
+        if x > 0:
+            lista_elemente.append(x)
+            x = x - 1
+        elif x < 0:
+            lista_elemente.append(x)
+            x = x + 1
+        elif x == 0:
+            lista_elemente.append(x)
+            break
+
+    return sorted(lista_elemente)
+
+
+print(func(-25))
