@@ -39,6 +39,9 @@ def generate_random_str(str_length):
     print(f"The generated string is {rand_str}")
     return rand_str
 
+def add_sufix(sfx, pfx, rand_str):
+
+
 
 prefix = input('Give me an prefix\n')
 x = int(input('Give me a number to generate the random string\n'))

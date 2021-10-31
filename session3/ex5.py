@@ -11,3 +11,10 @@
         si definitia functiei)
         - hint: list comprehensions (google it if you don't know it already)
 """
+
+
+def my_funct(numbers):
+    return [number + 1 for number in numbers]
+
+
+print(my_funct([1, 2, 3]))

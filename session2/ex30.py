@@ -11,3 +11,4 @@
         Veti printa: False
 """
 #Rezolvare:
+"([)]"
