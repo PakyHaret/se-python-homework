@@ -32,11 +32,11 @@ def lower(my_str):
 my_string = input()
 
 
-def call_changers(my_str, lower, upper):
+def call_changers(my_str, upper, lower):
     if len(my_str) % 2 == 0:
         print(upper(my_str))
     else:
         print(lower(my_str))
 
 
-print(call_changers(my_string, lower, upper))
+print(call_changers(my_string, upper, lower))
