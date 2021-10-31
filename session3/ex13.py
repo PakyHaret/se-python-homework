@@ -4,8 +4,10 @@
     ar fi sa intoarca 'CmI' dupa aplicarea decoratorului.
 
 """
+def my_deco(func):
+    functie = func()
+    print(functie.upper())
 
-
-# decoarate me
+@my_deco
 def f():
     return 'cmi'
