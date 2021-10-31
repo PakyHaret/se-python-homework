@@ -7,3 +7,11 @@
         - func('aabbcc')
             ---> 'bbccdd'
 """
+
+
+def next_letter(letters):
+    new_string = ''.join(chr(ord(char)+1) for char in letters)
+    return new_string
+
+
+print(next_letter("aabbcc"))
