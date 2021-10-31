@@ -27,7 +27,7 @@ import random
 
 
 def add_prefix(pfx, rand_str):
-    return pfx + rand_str
+    return rand_str + pfx
 
 
 # Nu am spus ca stringul generat aleator trebuie sa contina toate literele
@@ -42,16 +42,19 @@ def generate_random_str(str_length):
 
 def add_suffix(sfx, pfx, prefixed_str):
     count = 2
-    while count > 0:
-        if set(list(sfx)) & set(list(pfx)):
-            suffix = input("Give me another suffix\n")
-            count -= 1
-        else:
-            return sfx + prefixed_str
+
+    while set(list(sfx)) & set(list(pfx)) and count > 0:
+        sfx = input("Give me another suffix\n")
+        count -= 1
+
+    if count == 0:
+        return prefixed_str
+    else:
+        return sfx + prefixed_str
 
 
-suffix = input("Give me a suffix\n")
-prefix = input('Give me a prefix\n')
 x = int(input('Give me a number to generate the random string\n'))
+prefix = input('Give me a prefix\n')
+suffix = input("Give me a suffix\n")
 
 print(add_suffix(suffix, prefix, add_prefix(prefix, generate_random_str(x))))
