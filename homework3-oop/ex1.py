@@ -28,3 +28,47 @@
     The explanations for what the methods should do are mainly for the classes
     that will extend the Animal class.
 """
+
+
+from enum import Enum
+
+
+class Animal:
+
+    def __init__(self, color, age):
+        self.color = color
+        self.age = age
+        self.animal_type = AnimalType
+
+    def sound(self):
+        if self.animal_type.name == "DOG":
+            return "Ham"
+        elif self.animal_type.name == "CAT":
+            return "Miaw"
+        elif self.animal_type.name == "CHICKEN":
+            return "Codcodac"
+        elif self.animal_type.name == "SNAKE":
+            return "Psst"
+
+    def tell_age(self):
+        return self.age
+
+    def age_up(self):
+        self.age += 1
+
+    def all_implemented(self):
+        x = callable(Animal.sound)
+        y = callable(Animal.tell_age)
+        z = callable(Animal.age_up)
+        if x == True and y == True and z == True:
+            return True
+        else:
+            return False
+
+
+class AnimalType(Enum):
+
+    DOG = 1
+    CAT = 2
+    CHICKEN = 3
+    SNAKE = 4
